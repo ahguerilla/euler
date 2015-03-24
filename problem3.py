@@ -26,6 +26,8 @@ def problem_three(value):
 def test():
     if problem_three(13195) != 29:
         print "Test Failed"
+    elif problem_three(29) != 29:
+        print "Test Failed"
     else:
         print "Test Passed"
 
