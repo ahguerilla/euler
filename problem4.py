@@ -1,9 +1,5 @@
 def is_palindromic(value):
-    val_as_string = str(value) 
-    val_reversed = str(value)[::-1]
-    if val_reversed == val_as_string:
-        return True
-    return False
+    return str(value) == str(value)[::-1]
 
 
 def problem_four():
