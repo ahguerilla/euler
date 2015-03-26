@@ -67,6 +67,6 @@ def common_tests():
     except:
         print "Common Tests failed"
 
-common_tests()
+#common_tests()
 
 
